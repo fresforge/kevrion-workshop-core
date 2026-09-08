@@ -1,4 +1,5 @@
 # Kevrion Workshop Core
+[![CI](https://github.com/fresforge/kevrion-workshop-core/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fresforge/kevrion-workshop-core/actions/workflows/ci.yml)
 
 A small TypeScript model derived from verified domain and workflow invariants used in Kevrion, a workshop-management application built around real operational flows.
 

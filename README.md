@@ -1,10 +1,10 @@
 # Kevrion Workshop Core
 
-A small TypeScript extraction of domain and workflow rules behind Kevrion, a workshop-management application built around real operational flows.
+A small TypeScript model derived from verified domain and workflow invariants used in Kevrion, a workshop-management application built around real operational flows.
 
 This repository focuses on organization-scoped relationships, workshop entity invariants, and human-reviewed OCR intake. It intentionally excludes authentication, production database policies, storage infrastructure, and private application code.
 
-Extracted from verified domain and workflow logic used in Kevrion.
+Derived from verified domain and workflow invariants used in Kevrion.
 
 ## What this repository demonstrates
 

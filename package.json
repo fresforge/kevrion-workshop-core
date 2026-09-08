@@ -1,0 +1,21 @@
+{
+  "name": "@fresforge/kevrion-workshop-core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Educational TypeScript model of organization-scoped workshop workflows.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "example": "node --experimental-strip-types examples/workshop-flow.ts",
+    "test": "node --experimental-strip-types --test tests/tenancy.test.ts tests/workflow.test.ts tests/ocr-review.test.ts",
+    "typecheck": "tsc --noEmit",
+    "validate": "npm run typecheck && npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "22.16.5",
+    "typescript": "5.8.3"
+  }
+}
